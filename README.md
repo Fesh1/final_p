@@ -8,7 +8,7 @@ In this project, using Python, OOP and some libraries, Docker(for checking proge
 You can also compare this method with the theoretical, the end result was 86%    
 theoretical method-- https://www.kaggle.com/vinesmsuic/preprocessing-the-stardataset
 
-Structere
+Project Structure
 
 app
     ├── data                        - contains train and validation data
@@ -33,3 +33,6 @@ app
     ├── requirements.txt
     │
     └── Dockerfile
+
+  
+
