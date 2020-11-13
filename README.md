@@ -3,10 +3,10 @@
     
    
 In this project, using Python, OOP and some libraries, Docker(for checking progect) I made a model for classifying stars by types
-
+task -- https://github.com/DataRootUniversity/ds-fundamentals/blob/master/final-project/DOC.md
 
 You can also compare this method with the theoretical, the end result was 86%    
-theoretical method-- https://www.kaggle.com/vinesmsuic/preprocessing-the-stardataset
+theoretical method -- https://www.kaggle.com/vinesmsuic/preprocessing-the-stardataset
 ## Project Structure
 ```
 app
