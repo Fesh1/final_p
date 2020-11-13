@@ -1,0 +1,47 @@
+
+{
+"description":{
+        "X": [
+            "Vmag",
+            "Plx",
+            "e_Plx",
+            "B-V", 
+            "Amag"
+        ],
+        "final_columns":[
+                    "Vmag",
+                    "Plx",
+                    "e_Plx",
+                    "B-V",
+                    "Amag"
+                ],
+        "y":"target",
+        "metrics":"accuracy_score",
+
+         "encode_labels":[
+                      "SpType"
+                   ]
+    },
+    "operations":[
+      {
+            "operation_number":1,
+            "operation_name":"fill_nans",
+            "params":{
+                "in_columns":[
+                    "Vmag",
+                    "Plx",
+                    "e_Plx",
+                    "B-V",
+                    "Amag"
+                ],
+                "methods":[
+                    "mean",
+                    "mean",
+                    "mean",
+                    "mean",
+                    "mean"
+                ]
+            }
+        }
+    ]
+}
